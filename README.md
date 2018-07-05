@@ -23,8 +23,11 @@ docker run --rm -e KANDEN_LOGIN_ID="login_id" -e KANDEN_LOGIN_PASS="login_pass" 
 
 ## 環境変数
 `KANDEN_LOGIN_ID` はぴeみる電ログイン用の会員ID
+
 `KANDEN_LOGIN_PASS` はぴeみる電ログイン用のパスワード
+
 `OUTPUT_DIR` 結果の出力先：デフォルト`/tmp/kanden.json`
+
 
 ## その他
 [json-server](https://github.com/typicode/json-server)との併用が便利です。
